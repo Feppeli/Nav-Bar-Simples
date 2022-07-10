@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background: #1f1f1f;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+    height: 40px;
+}
+
+h2,
+.areas a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a {
+    margin: 10px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #6c1dff;
+    transition: .4s;
+}
+
+h2 {
+    cursor: pointer;
+}
+
+button {
+    display: none;
+    border: none;
+    background: transparent;
+}
+
+i {
+    color: #fff;
+}
+
+@media(max-width:800px) {
+    button {
+        display: block;
+    }
+
+    .areas a {
+        display: none;
+    }
+}
+
+/* MENU MOBILE */
+.first{
+    z-index: 1;
+}
+.first a{
+    color: #000;
+}
+
+.first div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.first a{
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 40px;
+
+}
+
+.second{
+    display: none;
+}
+
+#background{
+    height: 100vh;
+    background-image: url('./fundo-com-cidade-da-noite-em-luzes-de-neon_1441-2822.webp');
+}
